@@ -24,3 +24,5 @@ cryserv-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
+.devenv
+.pre-commit-config.yaml
