@@ -22,6 +22,9 @@ erl_crash.dump
 # Ignore package tarball (built via "mix hex.build").
 cryserv-*.tar
 
+# Config
+config/*.secrets.exs
+
 # Temporary files, for example, from tests.
 /tmp/
 .devenv

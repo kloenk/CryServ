@@ -23,6 +23,8 @@ defmodule CryServ.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
+      {:nostrum, "~> 0.6"},
+
       {:exsync, "~> 0.2", only: :dev},
       {:credo, "~> 1.7", only: [:dev, :test], runtime: false}
       # {:dep_from_hexpm, "~> 0.3.0"},
